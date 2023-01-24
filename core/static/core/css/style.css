@@ -1,0 +1,55 @@
+body {
+    color: #ffffff;
+    font-family: monospace;
+    padding: 24px;
+    text-align: center;
+}
+
+.subtitle{
+    margin: 0px 0px 20px 0px;
+    color: #000000;
+    font-weight: bold
+}
+
+.list-item{
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+input{
+    height: 32px;
+    background-color: transparent;
+    color: #049cd8;
+    border-color: #fbd000;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0.5% 0;
+}
+
+.add-task-button{
+    font-size: 16px;
+    padding: 8px;
+    background-color: #e52521;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+img {
+    width: 400px;
+}
+.imagem-supermario{
+    text-align: left;
+}
+
+.mostrar{
+    display: none;
+
+}
+  
+.passar_mouse:hover .mostrar{
+    display:block;
+    color: #000000;
+}

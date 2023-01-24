@@ -1,0 +1,31 @@
+{% extends 'template.html' %}
+
+{% block Title %}Universo Super Mario Bros{% endblock Title %}
+
+
+{% block Conteudo %}
+
+<div>
+    <img src="https://i0.wp.com/multarte.com.br/wp-content/uploads/2019/03/super-mario-png-logo.png?fit=1280%2C599&ssl=1">
+    <h2 class="subtitle">Que tal adicionar os personagens do universo Super Mario?</h2>
+
+</div>
+
+
+<div>
+    <form action="{% url 'salvar' %}" method="POST" name="formulario">
+        {% csrf_token %}
+        <div class="passar_mouse" ><input type="text" id="task_name" name="task_name" placeholder="Nome do Jogo*" required maxlength="20"/><div class="mostrar">Neste campo você preenche o nome do jogo</div></div>
+        <div class="passar_mouse" ><input type="text" id="task_personagem" name="task_personagem" placeholder="Personagem*" required maxlength="20"/><div class="mostrar">Aqui você insere o nome do personagem do jogo</div></div>
+        <input type="text" id="task_genero" name="task_genero" placeholder="Genero" required maxlength="15"/><br>
+        <input type="text" id="task_ano" name="task_ano" placeholder="Ano de Lançamento" aria-labelledby="year-campo" required maxlength="4"/><br>
+        <button id="submit" type="submit" class="add-task-button" onclick="validar()">Adicionar</button>
+    </form>
+
+</div>
+<div class="imagem-supermario">
+    <img src="https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/super-mario-png.png?resize=696%2C860&ssl=1">
+</div>
+<i class="fa-solid fa-circle-info"></i>
+
+{% endblock Conteudo %}
