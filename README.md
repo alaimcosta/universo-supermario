@@ -1,8 +1,8 @@
 # Sintatica Verso Super Mario
-Este é um projeto de treinamento que tem como objetivo armazenar alguns dados dos principais jogos do Universo Super Mario 
+Este é um projeto de treinamento simples que tem como objetivo armazenar alguns dados dos principais jogos do Universo Super Mario. 
 
-## design do projeto
-![Tela Principal](img/tela inicial.png)
+## Apresentação
+![tela inicial](https://user-images.githubusercontent.com/71519298/214593576-ab4167ee-6e68-4e33-bd1e-474ffec28fe1.png)
 
 ## Requisitos para rodar o projeto
 
