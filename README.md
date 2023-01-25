@@ -2,7 +2,7 @@
 Este é um projeto de treinamento que tem como objetivo armazenar alguns dados dos principais jogos do Universo Super Mario 
 
 ## design do projeto
-!(universo-supermario/img/tela inicial.png)
+![Tela Principal](img/tela inicial.png)
 
 ## Requisitos para rodar o projeto
 
