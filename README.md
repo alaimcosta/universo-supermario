@@ -1,7 +1,8 @@
 # Sintatica Verso Super Mario
 Este é um projeto de treinamento que tem como objetivo armazenar alguns dados dos principais jogos do Universo Super Mario 
 
-
+## design do projeto
+!(universo-supermario/img/tela inicial.png)
 
 ## Requisitos para rodar o projeto
 
@@ -65,6 +66,7 @@ function validar(){
     }
 }
 ```
+
 ## Autor
 | [<img src="https://user-images.githubusercontent.com/71519298/188052888-7d822b41-2950-4e4b-b6e7-0863dc9ef67d.jpg" width=115><br><sub>Alaim Costa</sub>](https://github.com/alaimcosta) |
 | :---: |
