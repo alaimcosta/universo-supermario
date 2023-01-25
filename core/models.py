@@ -16,4 +16,4 @@ class Jogo(models.Model):
     generoJogo = models.ForeignKey(GeneroJogo, on_delete=models.PROTECT, null=True)
 
     def __str__(self):
-        return self.nomeJogo, self.person, self.ano
+        return self.nomeJogo 
