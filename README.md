@@ -28,9 +28,21 @@ JavaScript<br>
 
 ### Como me localizar no projeto?
 * Todos os arquivos do projeto estão em
-    * `index.html`
-    * `main.css`
-    * `main.js`
+    * core
+      * migrations
+      * static
+         * core
+            * css
+               * `style.css` 
+            * js
+               * `style.js`
+      * templates
+         * `ìndex.html`
+         * `template.html`
+    * `projetosuper`
+    * `venv`
+    * `db.sqlite3`
+    * `manage.py`
 
 ### Como funciona a estrutura do JavaScript?
 ```javascript
